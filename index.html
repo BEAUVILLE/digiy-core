@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DIGIY CORE — Types & Contracts</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 40px;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+    h1 { color: #38bdf8; }
+    h2 { margin-top: 40px; color: #facc15; }
+    code, pre {
+      background: #1e293b;
+      padding: 10px;
+      border-radius: 6px;
+      display: block;
+      overflow-x: auto;
+    }
+    .box {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🧠 DIGIY CORE</h1>
+<p>Package TypeScript partagé pour tous les modules DIGIY.</p>
+
+<div class="box">
+  <strong>Objectif :</strong><br />
+  Standardiser les types, les contrats API et les structures
+  pour rendre DIGIY scalable, industrialisable et IA-ready.
+</div>
+
+<h2>📦 Installation</h2>
+<pre><code>npm install @digiy/core</code></pre>
+
+<h2>🔧 Exemple d'utilisation</h2>
+<pre><code>import type { DigiySubscription } from "@digiy/core"
+
+const sub: DigiySubscription = {
+  phone: "221771234567",
+  module: "DRIVER",
+  plan: "standard",
+  status: "active",
+  billing_cycle: "monthly"
+}
+</code></pre>
+
+<h2>🌍 Pourquoi DIGIY CORE ?</h2>
+<ul>
+  <li>Architecture cohérente entre modules</li>
+  <li>Contrats API standardisés</li>
+  <li>Compatibilité IA</li>
+  <li>Industrialisation facilitée</li>
+</ul>
+
+<h2>🔗 Écosystème</h2>
+<p>
+Modules connectés : DRIVER, POS, MARKET, RESTO, LOC, JOBS, BUILD…
+</p>
+
+<hr />
+<p>© DIGIYLYFE — Infrastructure numérique souveraine.</p>
+
+</body>
+</html>
